@@ -1,0 +1,13 @@
+# Binary files
+*.exe
+*.o
+
+# Output and log files
+log_execucao_tempos.txt
+saidas/
+
+# IDE files
+.vscode/
+
+# Build artifacts
+build/

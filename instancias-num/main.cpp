@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
   }
   cout << endl;
 
-  // Log de tempo para erro padrão (opcional para análise)
+  // Log de tempo para erro padrão
   cerr << "Tempo (" << algo << "): " << diff.count() << "s" << endl;
 
   return 0;

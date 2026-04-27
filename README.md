@@ -24,14 +24,25 @@ Isso gerará o executável `sorting.exe`.
 ##  Como Executar
 
 ### Automação de Testes
-Para rodar todos os testes de uma vez e gerar o log de tempos, execute o script PowerShell:
+
+Para rodar uma bateria de testes básicos e gerar um log inicial de tempos, execute o script PowerShell:
 
 ```powershell
 ./caso_teste_imprimir_tempo_execucao.ps1
 ```
 
+#### Geração de Log Completo (Novos Algoritmos)
+
+Para realizar a execução em lote abrangendo todos os quatro algoritmos (Selection, Insertion, Merge e Quick Sort) e gerar o registro consolidado detalhado, utilize o novo script dedicado:
+
+```powershell
+./gerar_log_v3.ps1
+```
+
+*(Nota: Certifique-se de estar no mesmo diretório dos scripts ao executá-los).*
+
 ##  Resultados
-Os tempos de execução de cada algoritmo para cada instância são anexados ao arquivo `log_execucao_tempos.txt`, permitindo uma análise comparativa direta da complexidade prática dos algoritmos implementados.
+Os tempos de execução de cada algoritmo para cada instância são anexados ao arquivo `log_tempos_execucao.txt`, permitindo uma análise comparativa direta da complexidade prática dos algoritmos implementados.
 
 ## Análise de Desempenho - Selection Sort, Insertion Sort, Merge Sort e Quick Sort
 

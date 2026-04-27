@@ -118,14 +118,13 @@ int main(int argc, char *argv[]) {
     cout << arr[i] << (i == n - 1 ? "" : " ");
   }
   cout << endl;
-// ... (após o loop de ordenação)
 
-    // 1. Imprime os números ordenados
+    // Imprime os números ordenados
     for (int i = 0; i < n; i++) {
         cout << arr[i] << "\n";
     }
 
-    // 2. Imprime uma tag identificadora e o tempo no FINAL do arquivo
+    // Imprime uma tag identificadora e o tempo no FINAL do arquivo
     // Isso garante que o tempo seja salvo no .txt da pasta /saidas
     cout << "TEMPO_TOTAL " << fixed << setprecision(6) << diff.count() << endl;
 
@@ -133,8 +132,5 @@ int main(int argc, char *argv[]) {
     cerr << fixed << setprecision(6) << diff.count() << endl;
 
     return 0;
-  // Log de tempo para erro padrão
- // cerr << "Tempo (" << algo << "): " << diff.count() << "s" << endl;
- //cerr << fixed << setprecision(6) << diff.count();
-//  return 0;
+
 }

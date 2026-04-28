@@ -6,11 +6,11 @@ Este projeto realiza a implementação e análise de desempenho de 4 algoritmos 
 
 - `main.cpp`: Implementação em C++ dos algoritmos e medição de tempo.
 - `Makefile`: Script para compilação simplificada utilizando o `gcc`.
-- `caso_teste_imprimir_tempo_execucao.ps1`: Script PowerShell para automatizar os testes em todas as instâncias - Pratica 1.
-- `caso_log_.ps1`: Script PowerShell para automatizar os testes em todas as instâncias - Pratica 2.
+- `caso_teste_imprimir_tempo_execucao.ps1`: Script PowerShell para automatizar os testes em todas as instâncias - Prática 1.
+- `gerar_log_v3.ps1`: Script PowerShell para automatizar os testes para os novos algoritmos (Merge e Quick Sort) em todas as instâncias - Prática 2.
 - `instancias-num/`: Pasta contendo os arquivos de entrada (`.in`) com as listas de números.
 - `log_execucao_tempos.txt`: Registro consolidado dos tempos de execução após os testes - Pratica 1.
-- `log_.txt`: Registro consolidado dos tempos de execução após os testes - Pratica 2.
+- `log_tempos_execucao.txt`: Registro consolidado dos tempos de execução após os testes - Pratica 2.
 - `saidas/`: Pasta gerada automaticamente para armazenar os resultados ordenados.
 
 ##  Compilação

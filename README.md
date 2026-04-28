@@ -1,14 +1,16 @@
 # Comparação de Algoritmos de Ordenação
 
-Este projeto realiza a implementação e análise de desempenho de dois algoritmos clássicos de ordenação: **Selection Sort** e **Insertion Sort**. O objetivo é comparar a eficiência de ambos utilizando diferentes tamanhos de instâncias numéricas.
+Este projeto realiza a implementação e análise de desempenho de 4 algoritmos clássicos de ordenação: Selection, Insertion, Merge e Quick Sort. O objetivo é comparar a eficiência utilizando diferentes tamanhos de instâncias numéricas, 10^3, 10^4, 10^5.
 
 ##  Estrutura do Projeto
 
 - `main.cpp`: Implementação em C++ dos algoritmos e medição de tempo.
 - `Makefile`: Script para compilação simplificada utilizando o `gcc`.
-- `caso_teste_imprimir_tempo_execucao.ps1`: Script PowerShell para automatizar os testes em todas as instâncias.
+- `caso_teste_imprimir_tempo_execucao.ps1`: Script PowerShell para automatizar os testes em todas as instâncias - Pratica 1.
+- `caso_log_.ps1`: Script PowerShell para automatizar os testes em todas as instâncias - Pratica 2.
 - `instancias-num/`: Pasta contendo os arquivos de entrada (`.in`) com as listas de números.
-- `log_execucao_tempos.txt`: Registro consolidado dos tempos de execução após os testes.
+- `log_execucao_tempos.txt`: Registro consolidado dos tempos de execução após os testes - Pratica 1.
+- `log_.txt`: Registro consolidado dos tempos de execução após os testes - Pratica 2.
 - `saidas/`: Pasta gerada automaticamente para armazenar os resultados ordenados.
 
 ##  Compilação
